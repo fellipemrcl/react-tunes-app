@@ -15,7 +15,7 @@ class Search extends Component {
   };
 
   componentDidMount() {
-    this.handleClick();
+    // this.handleClick();
   }
 
   searchInputValidation = () => {
