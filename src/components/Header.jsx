@@ -36,13 +36,13 @@ class Header extends Component {
           )}
         </div>
         <div>
-          <Link to="/search" data-testid="link-to-search" />
+          <Link to="/search" data-testid="link-to-search">Search</Link>
         </div>
         <div>
-          <Link to="/favorites" data-testid="link-to-favorites" />
+          <Link to="/favorites" data-testid="link-to-favorites">Favorites</Link>
         </div>
         <div>
-          <Link to="/profile" data-testid="link-to-profile" />
+          <Link to="/profile" data-testid="link-to-profile">Profile</Link>
         </div>
       </header>
     );

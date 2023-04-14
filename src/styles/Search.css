@@ -1,0 +1,16 @@
+.Albums__Container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Album__Container {
+  align-items: center;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 5px;
+  padding: 50px;
+  width: 200px;
+}
+
