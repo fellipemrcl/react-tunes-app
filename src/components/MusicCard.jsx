@@ -22,7 +22,11 @@ class MusicCard extends Component {
     }));
 
     if (checked) {
-      await addSong(id);
+      const { songs } = this.props;
+      const selectedSong = songs
+        .find((eachSong) => eachSong.trackId === parseInt(id, 10));
+      console.log(selectedSong);
+      await addSong(selectedSong);
     }
 
     this.setState({
