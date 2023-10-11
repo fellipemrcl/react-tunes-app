@@ -31,3 +31,32 @@ Neste momento, a estilização da aplicação ainda não foi completamente imple
 
 ```bash
 git clone git@github.com:seu-usuario/react-tunes-app.git
+
+
+## **Instalar as dependências**:
+
+Navegue até o diretório do projeto e execute o seguinte comando:
+
+```bash
+npm install
+```
+
+## **Executar a aplicação**:
+
+Execute o seguinte comando para iniciar o servidor de desenvolvimento:
+
+```bash
+npm start
+```
+A aplicação estará disponível em http://localhost:3000.
+
+## **Estrutura do Projeto**
+   
+A estrutura de diretórios do projeto está organizada da seguinte maneira:
+
+- src/: Contém o código-fonte da aplicação React.
+- public/: Contém arquivos públicos, como o arquivo HTML principal.
+- images/: Armazena as imagens usadas na documentação.
+
+## **Licença**
+Este projeto é distribuído sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
