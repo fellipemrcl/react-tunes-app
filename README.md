@@ -31,7 +31,7 @@ Neste momento, a estilização da aplicação ainda não foi completamente imple
 
 ```bash
 git clone git@github.com:seu-usuario/react-tunes-app.git
-
+```
 
 ## **Instalar as dependências**:
 
